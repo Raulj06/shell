@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1A | wc -1 
+find -a -type -print | wc -1 
