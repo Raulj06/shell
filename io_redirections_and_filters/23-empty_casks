@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty  -prinf -type -d -f | wc -l 
+find . -empty  -prinf -type -df | wc -l 
