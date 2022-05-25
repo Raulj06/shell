@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -prinf -type -d -type -f %files\n | wc -l 
+find . -empty -prinf %f\n
