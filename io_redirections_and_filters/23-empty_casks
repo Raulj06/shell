@@ -1,2 +1,2 @@
 #!/bin/bash
-find /path/ -empty -type df | wc -l 
+find . -empty -type -d -f | wc -l 
