@@ -9,7 +9,7 @@ if [ "$n" = 4 ];
  
 	echo "bad luck"
 
-elif [ "$n" = 8 ]
+elif [ "$n" = 8 ];
 then
     echo "good luck"
 
