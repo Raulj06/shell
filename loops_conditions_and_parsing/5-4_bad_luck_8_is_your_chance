@@ -17,7 +17,7 @@ else
       echo "Best School"
 
 	fi 
-	(( n++ ))
+	let n+=1
 done
 
 
