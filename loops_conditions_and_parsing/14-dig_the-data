@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#script that display groups by IP and HTTP
+
+file="apache-acces.log"
+ awk '{print $1, $9}' $file | sort | uniq -c | sort -nr
