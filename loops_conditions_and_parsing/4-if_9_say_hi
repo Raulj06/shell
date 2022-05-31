@@ -6,5 +6,6 @@ do
   echo "Best School"
 if [ "$n" -eq 9 ]; then
        echo "Hi"
+fi
      (( n++ ))
 done 
