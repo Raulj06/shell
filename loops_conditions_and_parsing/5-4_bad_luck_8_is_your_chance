@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 #script is displaying loops 1 to 10, bad luck in 4 , good luck in 8.
 n=1
-while [ "$n"-lt 10 ] 
+while [ "$n"-le 10 ] 
 
 do
 
-if [ "$n" = 4 ]
+if [ "$n" -eq 4 ]
 
 then
 	echo "bad luck"
 
-elif [ "$n" = 8 ]
+elif [ "$n" -eq 8 ]
 
 then
     echo "good luck"
