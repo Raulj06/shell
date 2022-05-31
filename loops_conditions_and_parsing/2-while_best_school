@@ -2,5 +2,5 @@
 #script is displaying "Best School" in while command
 while {1..10}
 do 
-  echo "Best School"
+  echo "Best School";
 done
