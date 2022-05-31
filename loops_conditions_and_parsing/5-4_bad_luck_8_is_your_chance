@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#script is displaying loops 1 to 10, bad luck in 4 , good luck in 8.
+n=1
+while [ "$n"-lt 10 ] 
+
+do
+
+if [ "$n" = 4 ]; 
+ 
+	echo "bad luck"
+
+elif [ "$n" = 8 ]
+then
+    echo "good luck"
+
+fi "Best School"
+
+ (( n++ ))
+done
+
+
+ 
