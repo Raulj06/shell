@@ -12,3 +12,4 @@ do
      echo "minutes"
       (( m++ ))
 done
+done
