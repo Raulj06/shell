@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #script is displaying "Best School" in while command
-n=1
-while [ 1 < 10 ]
+n=0
+while (( n < 10 ));
 do 
   echo "Best School";
       (( n++ ))
