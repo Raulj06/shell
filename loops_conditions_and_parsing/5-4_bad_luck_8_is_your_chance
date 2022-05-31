@@ -13,9 +13,9 @@ elif [ "$n" = 8 ]
 then
     echo "good luck"
 
-fi "Best School"
+else "Best School"
 
- (( n++ ))
+	fi (( n++ ))
 done
 
 
