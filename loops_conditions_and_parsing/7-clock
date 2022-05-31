@@ -9,7 +9,7 @@ do
 m=1
    while [ "$m" -le 59 ]
 do 
-     echo "minutes"
+     echo "m"
       (( m++ ))
 done
 done
