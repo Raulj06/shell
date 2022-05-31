@@ -3,8 +3,8 @@
 
 file="/etc/passwd"
 
-while read line
+while read LINE
 do 
-  echo "$line" | cut -d ":" -f1,3,6
+  echo "$LINE" | cut -d ":" -f1,3,6
 
 done < "$file"
