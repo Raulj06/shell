@@ -3,7 +3,7 @@
 
 FILE="/etc/passwd"
 
-while -r LINE
+while IFS= read -r LINE
 
 do 
   
