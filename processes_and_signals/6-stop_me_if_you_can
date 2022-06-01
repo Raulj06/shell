@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #script taht stops the process not using kill or killall
 
-pkill -u "4-to_infinity_and_beyond"
+pkill "$( 4-to_infinity_and_beyond )"
