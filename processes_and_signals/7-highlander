@@ -8,6 +8,6 @@ do
   
     sleep 2 
 
-trap "Iam invincible!!! SIGTERM"
+trap echo "m invincible!!!" SIGTERM
 
 done 
