@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#script that displays To inf and beyond indefinitely 
+#sleep 2 in between each iteration
+
+while ;:
+do 
+    echo "To infinity and beyond";
+  
+    sleep 2 
+
+trap "Iam invincible!!!" SIGTERM
+
+done 
