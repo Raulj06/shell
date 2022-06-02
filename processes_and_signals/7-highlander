@@ -2,7 +2,7 @@
 #script that displays To inf and beyond indefinitely 
 #sleep 2 in between each iteration
 
-while ;:
+while TRUE
 do 
     echo "To infinity and beyond"
   
