@@ -8,6 +8,6 @@ do
   
     sleep 2 
 
-trap "Iam invincible!!!" SIGTERM
+trap "Iam invincible!!! SIGTERM"
 
 done 
